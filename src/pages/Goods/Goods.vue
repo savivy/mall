@@ -32,7 +32,7 @@
           <el-button type="primary">{{scope.row.ishot| isFlag}}</el-button>
         </template>
       </el-table-column>
-      <el-table-column label="状态" width="180">
+      <el-table-column label="状态" width="100">
         <template slot-scope="scope">
           <el-button type="primary" >{{scope.row.status | status}}</el-button>
         </template>

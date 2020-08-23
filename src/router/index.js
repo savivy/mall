@@ -71,17 +71,10 @@ export default new Router({
           component:()=>import('@/pages/Specs/Insert')
         },
         {
-          path:"seck",
-          component:()=>import('@/pages/Seck/Seck')
+          path:"seckill",
+          component:()=>import('@/pages/Seckill/Seckill')
         },
-        {
-          path:"seck/insert",
-          component:()=>import('@/pages/Seck/Insert')
-        },
-        {
-          path:"seck/:id",
-          component:()=>import('@/pages/Seck/Insert')
-        },
+        
         {
           path:"goods",
           component:()=>import('@/pages/Goods/Goods')
@@ -98,14 +91,7 @@ export default new Router({
           path:"member",
           component:()=>import('@/pages/Member/Member')
         },
-        {
-          path:"member/insert",
-          component:()=>import('@/pages/Member/Insert')
-        },
-        {
-          path:"member/:id",
-          component:()=>import('@/pages/Member/Insert')
-        },
+        
       ]
     },
     {
